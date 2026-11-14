@@ -19,7 +19,7 @@ public:
         : nombre(nombre), anioNacimiento(anioNacimiento),
           gpa(gpa), presupuesto(presupuesto) {}
 
-    // Getters
+    
     string getNombre() const { return nombre; }
     int getAnioNacimiento() const { return anioNacimiento; }
     double getGpa() const { return gpa; }
